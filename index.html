@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Drum kit</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>JavaScript Drum Kit</h1>
+        <p>USE KEYBOARD OR CLICK ON PADS TO PLAY DRUM!</p>
+      </header>
+      <div class="pads">
+        <div class="pad1">
+          <h3>A</h3>
+          <span>Clap</span>
+          <audio src="./assets/sounds/clap.wav"></audio>
+        </div>
+        <div class="pad2">
+          <h3>S</h3>
+          <span>Hi-Hat</span>
+          <audio src="./assets/sounds/hihat.wav"></audio>
+        </div>
+        <div class="pad3">
+          <h3>D</h3>
+          <span>Kick</span>
+          <audio src="./assets/sounds/kick.wav"></audio>
+        </div>
+        <div class="pad4">
+          <h3>F</h3>
+          <span>Open Hat</span>
+          <audio src="./assets/sounds/openhat.wav"></audio>
+        </div>
+        <div class="pad5">
+          <h3>G</h3>
+          <span>Boom</span>
+          <audio src="./assets/sounds/boom.wav"></audio>
+        </div>
+        <div class="pad6">
+          <h3>H</h3>
+          <span>Clap</span>
+          <audio src="./assets/sounds/ride.wav"></audio>
+        </div>
+        <div class="pad7">
+          <h3>J</h3>
+          <span>Clap</span>
+          <audio src="./assets/sounds/snare.wav"></audio>
+        </div>
+        <div class="pad8">
+          <h3>K</h3>
+          <span>Clap</span>
+          <audio src="./assets/sounds/tom.wav"></audio>
+        </div>
+        <div class="pad9">
+          <h3>L</h3>
+          <span>Clap</span>
+          <audio src="./assets/sounds/tink.wav"></audio>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>

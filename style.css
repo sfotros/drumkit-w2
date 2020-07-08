@@ -41,7 +41,7 @@ header p {
 .pads div {
   font-weight: bolder;
   font-size: 1.6rem;
-  padding: 18px;
+  /* padding: 18px; */
   background-color: rgb(102, 100, 112);
   display: grid;
   /* border-bottom: 6px solid black;
@@ -55,4 +55,9 @@ header p {
 }
 .pads > div:hover {
   cursor: pointer;
+}
+
+.play {
+  color: beige;
+  padding-top: 20px;
 }
